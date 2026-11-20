@@ -1,0 +1,37 @@
+{
+  "name": "recetario-back",
+  "version": "1.0.0",
+  "description": "API REST del Recetario Digital - Parcial 2 Aplicaciones Hibridas",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js",
+    "seed": "node scripts/seed.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "mongodb",
+    "jwt"
+  ],
+  "author": "Colabo",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "nodemon": "3.1.14"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.6.0",
+    "zod": "^4.6.7"
+  }
+}
